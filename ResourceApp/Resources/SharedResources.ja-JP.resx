@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="HelloWorld" xml:space="preserve">
-    <value>Hello World ! This is Controller !</value>
+    <value>こんにちは世界 ！これはコントローラーです！</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>Home</value>
+    <value>ホーム</value>
   </data>
   <data name="Titile_First" xml:space="preserve">
-    <value>Learn about</value>
+    <value>について学ぶ</value>
   </data>
   <data name="Titile_Last" xml:space="preserve">
-    <value>building Web apps with ASP.NET Core</value>
+    <value>ASP.NETCoreを使用したWebアプリの構築</value>
   </data>
 </root>

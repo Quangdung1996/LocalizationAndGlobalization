@@ -13,30 +13,23 @@ namespace ResourceApp
         public static IServiceCollection RegisterResoure(this IServiceCollection services)
         {
             //first step
-            services.AddMvc()
-     .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
-     .AddDataAnnotationsLocalization(options =>
-    options.DataAnnotationLocalizerProvider = (type, factory) =>
-             factory.Create(typeof(SharedResources))
-     );
-            //second step
+
+            services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization(options =>
+            options.DataAnnotationLocalizerProvider = (type, factory) =>
+            factory.Create(typeof(SharedResources))
+            );
             services.Configure<RequestLocalizationOptions>(o =>
             {
-                var supportedCultures = new[]
-                {
-          new CultureInfo("en-US"),
-          new CultureInfo("fr-FR")
-        };
+                var supportedCultures = new[]{ new CultureInfo("en-US"),
+                                               new CultureInfo("fr-FR"),
+                                               new CultureInfo("ja-JP"),
+                                               new CultureInfo("ko-KR")
+            };
 
-                // State what the default culture for your application is. This will be used if no specific culture
-                // can be determined for a given request.
                 o.DefaultRequestCulture = new RequestCulture("en-US", "en-US");
                 o.SupportedCultures = supportedCultures;
                 o.SupportedUICultures = supportedCultures;
 
-                // - QueryStringRequestCultureProvider, sets culture via "culture" and "ui-culture" query string values, useful for testing
-                // - CookieRequestCultureProvider, sets culture via "ASPNET_CULTURE" cookie
-                // - AcceptLanguageHeaderRequestCultureProvider, sets culture via the "Accept-Language" request header
                 o.RequestCultureProviders.Insert(0, new QueryStringRequestCultureProvider());
             });
             return services;
