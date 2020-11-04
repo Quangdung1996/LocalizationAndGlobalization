@@ -2,6 +2,7 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Customer.API.Data;
 using Customer.API.DI;
+using Customer.API.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -102,15 +103,13 @@ namespace Customer.API
             app.UseRouting();
 
             app.UseSwaggerForApiDocs("BizAction APIs", false);
-            app.UseAuthorization();
+
+            app.UseMiddleware<RequestCorrelationMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-
-            //app.UseSwagger();
-            //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1"));
         }
     }
 }
