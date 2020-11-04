@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Localization;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using ResourceApp.Resources;
@@ -14,17 +13,14 @@ namespace LocalizationAndGlobalization.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        //private readonly IHtmlLocalizer<SharedResources> _localizer;
         private readonly IStringLocalizer<SharedResources> _localizer;
+
 
         public HomeController(ILogger<HomeController> logger, IStringLocalizer<SharedResources> localizer)
         {
             _logger = logger;
             _localizer = localizer;
         }
-
-  
 
         public IActionResult Index()
         {
@@ -50,7 +46,6 @@ namespace LocalizationAndGlobalization.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
