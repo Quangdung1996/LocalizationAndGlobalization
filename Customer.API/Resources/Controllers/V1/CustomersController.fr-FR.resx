@@ -139,7 +139,7 @@
     <value>Obtenir le client {0}</value>
   </data>
   <data name="LoggingGetCustomers" xml:space="preserve">
-    <value>Obtenir des clients</value>
+    <value>Obtenir des clients {0}</value>
   </data>
   <data name="LoggingUpdatedCustomer" xml:space="preserve">
     <value>Correctement mis à jour le client {0}</value>

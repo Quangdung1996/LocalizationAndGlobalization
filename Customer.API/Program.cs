@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Serilog;
+using System;
 
 namespace Customer.API
 {
@@ -10,7 +11,26 @@ namespace Customer.API
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var config = new ConfigurationBuilder()
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+            //Initialize Logger
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom.Configuration(config)
+                .CreateLogger();
+            try
+            {
+                Log.Information("Application Starting.");
+                CreateHostBuilder(args).Build().Run();
+            }
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "The Application failed to start.");
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
         }
 
         public static IWebHostBuilder CreateHostBuilder(string[] args) =>
@@ -19,30 +39,6 @@ namespace Customer.API
             .ConfigureAppConfiguration(builder =>
             {
                 //builder.AddJsonFile("appsettings.json");
-
-            }).ConfigureLogging(ConfigureLogging);
-
-
-        private static void ConfigureLogging(WebHostBuilderContext context, ILoggingBuilder loggingBuilder)
-        {
-            var env = context.HostingEnvironment;
-            var config = context.Configuration;
-
-            loggingBuilder.AddDebug();
-
-            if (!env.IsDevelopment())
-            {
-               
-            }
-            else
-            {
-                var serilogLogger = new LoggerConfiguration()
-                                    .ReadFrom.Configuration(config)
-                                    .WriteTo.ApplicationInsightsTraces(config["ApplicationInsights:InstrumentationKey"])
-                                    .CreateLogger();
-
-                loggingBuilder.AddSerilog(serilogLogger);
-            }
-        }
+            }).UseSerilog();
     }
 }

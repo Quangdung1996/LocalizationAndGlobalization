@@ -1,0 +1,99 @@
+11/05/2020 09:32:00 +07:00 Application Starting.
+11/05/2020 09:32:02 +07:00 Request to "GET":"/swagger/index.html" processed in 92 ms
+11/05/2020 09:32:02 +07:00 Request has no correlation header. Adding new correlation ID: 3897d7c8-1144-40b2-ae49-545b5a4f15f0
+11/05/2020 09:32:02 +07:00 Request correlation ID: 3897d7c8-1144-40b2-ae49-545b5a4f15f0
+11/05/2020 09:32:02 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 8 ms
+11/05/2020 09:32:03 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 180 ms
+11/05/2020 09:33:06 +07:00 Application Starting.
+11/05/2020 09:33:08 +07:00 Request to "GET":"/swagger/index.html" processed in 90 ms
+11/05/2020 09:33:08 +07:00 Request has no correlation header. Adding new correlation ID: 910923ee-ce79-4dab-a685-2655c20874ba
+11/05/2020 09:33:08 +07:00 Request correlation ID: 910923ee-ce79-4dab-a685-2655c20874ba
+11/05/2020 09:33:08 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 8 ms
+11/05/2020 09:33:09 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 178 ms
+11/05/2020 09:33:24 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 6 ms
+11/05/2020 09:33:27 +07:00 Request has no correlation header. Adding new correlation ID: 2ec0ac80-485c-4fe8-a9bf-36c7679892e7
+11/05/2020 09:33:27 +07:00 Request correlation ID: 2ec0ac80-485c-4fe8-a9bf-36c7679892e7
+11/05/2020 09:33:33 +07:00 Get: 고객 확보
+11/05/2020 09:33:39 +07:00 Request to "GET":"/customers/v1/customers" processed in 12202 ms
+11/05/2020 09:34:53 +07:00 Application Starting.
+11/05/2020 09:34:55 +07:00 Request to "GET":"/swagger/index.html" processed in 86 ms
+11/05/2020 09:34:55 +07:00 Request has no correlation header. Adding new correlation ID: e46e7fb0-9d64-4131-8ff7-af8ec058f8ce
+11/05/2020 09:34:55 +07:00 Request correlation ID: e46e7fb0-9d64-4131-8ff7-af8ec058f8ce
+11/05/2020 09:34:55 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 8 ms
+11/05/2020 09:34:56 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 176 ms
+11/05/2020 09:35:03 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 14 ms
+11/05/2020 09:35:05 +07:00 Request has no correlation header. Adding new correlation ID: f5c93668-0b2a-477e-970c-d61b215c1743
+11/05/2020 09:35:05 +07:00 Request correlation ID: f5c93668-0b2a-477e-970c-d61b215c1743
+11/05/2020 09:35:10 +07:00 An unhandled exception has occurred while executing the request.
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Microsoft.Extensions.Localization.ResourceManagerStringLocalizer.get_Item(String name, Object[] arguments)
+   at Microsoft.Extensions.Localization.StringLocalizer`1.get_Item(String name, Object[] arguments)
+   at Customer.API.Controllers.V1.CustomersController.BuildLogInfo(String methodName, String resourceStringName, Object[] replacements) in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Controllers\V1\CustomersController.cs:line 144
+   at Customer.API.Controllers.V1.CustomersController.Get() in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Controllers\V1\CustomersController.cs:line 38
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Customer.API.Middleware.RequestCorrelationMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Middleware\RequestCorrelationMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Customer.API.Startup.<>c__DisplayClass11_0.<<Configure>b__0>d.MoveNext() in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Startup.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+11/05/2020 09:35:46 +07:00 Application Starting.
+11/05/2020 09:35:48 +07:00 Request to "GET":"/swagger/index.html" processed in 86 ms
+11/05/2020 09:35:48 +07:00 Request has no correlation header. Adding new correlation ID: 0de57c99-1c81-479a-ac3c-62cc91653cb5
+11/05/2020 09:35:48 +07:00 Request correlation ID: 0de57c99-1c81-479a-ac3c-62cc91653cb5
+11/05/2020 09:35:48 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 9 ms
+11/05/2020 09:35:49 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 176 ms
+11/05/2020 09:35:50 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 10 ms
+11/05/2020 09:35:52 +07:00 Request has no correlation header. Adding new correlation ID: e8855283-27fd-4552-afdd-87d484d96fca
+11/05/2020 09:35:52 +07:00 Request correlation ID: e8855283-27fd-4552-afdd-87d484d96fca
+11/05/2020 09:36:00 +07:00 An unhandled exception has occurred while executing the request.
+System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Microsoft.Extensions.Localization.ResourceManagerStringLocalizer.get_Item(String name, Object[] arguments)
+   at Microsoft.Extensions.Localization.StringLocalizer`1.get_Item(String name, Object[] arguments)
+   at Customer.API.Controllers.V1.CustomersController.BuildLogInfo(String methodName, String resourceStringName, Object[] replacements) in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Controllers\V1\CustomersController.cs:line 143
+   at Customer.API.Controllers.V1.CustomersController.Get() in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Controllers\V1\CustomersController.cs:line 38
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Customer.API.Middleware.RequestCorrelationMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Middleware\RequestCorrelationMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Customer.API.Startup.<>c__DisplayClass11_0.<<Configure>b__0>d.MoveNext() in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Startup.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

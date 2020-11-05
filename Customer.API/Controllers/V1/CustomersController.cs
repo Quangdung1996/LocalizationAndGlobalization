@@ -140,7 +140,7 @@ namespace Customer.API.Controllers.V1
 
         private string BuildLogInfo(string methodName, string resourceStringName, params object[] replacements)
         {
-            var a = _localizer[resourceStringName];
+            var a = _localizer[resourceStringName, replacements];
             return $"{methodName}: {_localizer[resourceStringName, replacements]}";
         }
     }
