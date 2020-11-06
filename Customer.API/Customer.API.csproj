@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <PreserveCompilationContext>true</PreserveCompilationContext>
+	  <AssemblyName>CustomersAPI</AssemblyName>
+	  <OutputType>Exe</OutputType>
+	  <PackageId>Customer.API</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

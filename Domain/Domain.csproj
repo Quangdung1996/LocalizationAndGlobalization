@@ -2,23 +2,33 @@
 
 	<PropertyGroup>
 		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<Notes>netcoreapp 3.1 is used for the best practice of using the lowest netstandard version that can be applied</Notes>
+		<AssemblyName>Domain</AssemblyName>
+		<PackageId>Domain</PackageId>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<Title>Simple customer data model</Title>
+		<Authors>Dung Bui</Authors>
+		<Version>1.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.0" />
+		<PackageReference Include="System.ComponentModel.Annotations" Version="4.1.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Update="Resources\Domain.Models.CustomerDataTransferObject.en-US.resx">
+		<EmbeddedResource Update="Resources\CustomersShared.CustomerDataTransferObject.en-US.resx">
 			<Generator>ResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
-		<EmbeddedResource Update="Resources\Domain.Models.CustomerDataTransferObject.fr-FR.resx">
+		<EmbeddedResource Update="Resources\CustomersShared.CustomerDataTransferObject.fr-FR.resx">
 			<Generator>ResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
-		<EmbeddedResource Update="Resources\Domain.Models.CustomerDataTransferObject.ja-JP.resx">
+		<EmbeddedResource Update="Resources\CustomersShared.CustomerDataTransferObject.ja-JP.resx">
 			<Generator>ResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
-		<EmbeddedResource Update="Resources\Domain.Models.CustomerDataTransferObject.ko-KR.resx">
+		<EmbeddedResource Update="Resources\CustomersShared.CustomerDataTransferObject.ko-KR.resx">
 			<Generator>ResXFileCodeGenerator</Generator>
 		</EmbeddedResource>
 	</ItemGroup>
