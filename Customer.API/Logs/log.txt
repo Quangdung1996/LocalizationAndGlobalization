@@ -97,3 +97,149 @@ System.FormatException: Index (zero based) must be greater than or equal to zero
    at Customer.API.Startup.<>c__DisplayClass11_0.<<Configure>b__0>d.MoveNext() in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Startup.cs:line 79
 --- End of stack trace from previous location where exception was thrown ---
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+11/05/2020 09:40:57 +07:00 Application Starting.
+11/05/2020 09:40:59 +07:00 Request to "GET":"/swagger/index.html" processed in 85 ms
+11/05/2020 09:41:00 +07:00 Request has no correlation header. Adding new correlation ID: da7bc05e-7990-4f0d-96a9-a3f7bc6e891a
+11/05/2020 09:41:00 +07:00 Request correlation ID: da7bc05e-7990-4f0d-96a9-a3f7bc6e891a
+11/05/2020 09:41:00 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 9 ms
+11/05/2020 09:41:00 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 174 ms
+11/05/2020 09:41:02 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 10 ms
+11/05/2020 09:41:03 +07:00 Request has no correlation header. Adding new correlation ID: 80ee8dd5-c888-4305-97a5-70f193643c1f
+11/05/2020 09:41:03 +07:00 Request correlation ID: 80ee8dd5-c888-4305-97a5-70f193643c1f
+11/05/2020 09:42:01 +07:00 Application Starting.
+11/05/2020 09:42:04 +07:00 Request to "GET":"/swagger/index.html" processed in 84 ms
+11/05/2020 09:42:04 +07:00 Request has no correlation header. Adding new correlation ID: 538bf5e1-2aa9-4cea-bc16-15d38f03cfc2
+11/05/2020 09:42:04 +07:00 Request correlation ID: 538bf5e1-2aa9-4cea-bc16-15d38f03cfc2
+11/05/2020 09:42:04 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 10 ms
+11/05/2020 09:42:04 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 187 ms
+11/05/2020 09:42:05 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 11 ms
+11/05/2020 09:42:07 +07:00 Request has no correlation header. Adding new correlation ID: af642a72-e5e8-4351-b78b-5976bf29c6f2
+11/05/2020 09:42:07 +07:00 Request correlation ID: af642a72-e5e8-4351-b78b-5976bf29c6f2
+11/05/2020 09:42:20 +07:00 Get: 고객 확보 
+11/05/2020 09:44:49 +07:00 Application Starting.
+11/05/2020 09:44:52 +07:00 Request to "GET":"/swagger/index.html" processed in 98 ms
+11/05/2020 09:44:52 +07:00 Request has no correlation header. Adding new correlation ID: f77282c7-8b1d-442e-92dd-adb43a6f3607
+11/05/2020 09:44:52 +07:00 Request correlation ID: f77282c7-8b1d-442e-92dd-adb43a6f3607
+11/05/2020 09:44:52 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 10 ms
+11/05/2020 09:44:52 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 183 ms
+11/05/2020 09:44:59 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 10 ms
+11/05/2020 09:45:00 +07:00 Request has no correlation header. Adding new correlation ID: 6d3a2082-c34b-496c-aec2-890bb8dd6a3d
+11/05/2020 09:45:00 +07:00 Request correlation ID: 6d3a2082-c34b-496c-aec2-890bb8dd6a3d
+11/05/2020 09:45:00 +07:00 Get: 고객 확보 
+11/06/2020 10:03:20 +07:00 Application Starting.
+11/06/2020 10:03:25 +07:00 Request to "GET":"/swagger/index.html" processed in 118 ms
+11/06/2020 10:03:25 +07:00 Request has no correlation header. Adding new correlation ID: a48a4b8f-9ae0-4fb8-af97-aa4062a671ab
+11/06/2020 10:03:25 +07:00 Request correlation ID: a48a4b8f-9ae0-4fb8-af97-aa4062a671ab
+11/06/2020 10:03:25 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 11 ms
+11/06/2020 10:03:25 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 257 ms
+11/06/2020 10:03:38 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 6 ms
+11/06/2020 10:03:42 +07:00 Request has no correlation header. Adding new correlation ID: 03b516a4-ccbf-4698-a5bb-4ca4a0e97b46
+11/06/2020 10:03:42 +07:00 Request correlation ID: 03b516a4-ccbf-4698-a5bb-4ca4a0e97b46
+11/06/2020 10:03:42 +07:00 Get: 고객 확보 
+11/06/2020 10:03:52 +07:00 Get: 고객 확보 
+11/06/2020 10:09:04 +07:00 Application Starting.
+11/06/2020 10:09:06 +07:00 Request to "GET":"/swagger/index.html" processed in 116 ms
+11/06/2020 10:09:06 +07:00 Request has no correlation header. Adding new correlation ID: 53ddfba0-8a03-439b-948b-f2f5ad98c6e9
+11/06/2020 10:09:06 +07:00 Request correlation ID: 53ddfba0-8a03-439b-948b-f2f5ad98c6e9
+11/06/2020 10:09:06 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 6 ms
+11/06/2020 10:09:06 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 177 ms
+11/06/2020 10:09:08 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 10 ms
+11/06/2020 10:09:09 +07:00 Request has no correlation header. Adding new correlation ID: eaca2dd5-5c6d-476a-80e8-577ec153bb4e
+11/06/2020 10:09:09 +07:00 Request correlation ID: eaca2dd5-5c6d-476a-80e8-577ec153bb4e
+11/06/2020 10:09:10 +07:00 Get: 고객 확보 
+11/06/2020 10:09:17 +07:00 Get: 고객 확보 
+11/06/2020 10:18:06 +07:00 Application Starting.
+11/06/2020 10:18:09 +07:00 Request to "GET":"/swagger/index.html" processed in 103 ms
+11/06/2020 10:18:09 +07:00 Request has no correlation header. Adding new correlation ID: c383c6d9-760d-4b2c-958b-663a5b0a2cd7
+11/06/2020 10:18:09 +07:00 Request correlation ID: c383c6d9-760d-4b2c-958b-663a5b0a2cd7
+11/06/2020 10:18:09 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 12 ms
+11/06/2020 10:18:09 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 176 ms
+11/06/2020 10:18:11 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 10 ms
+11/06/2020 10:18:12 +07:00 Request has no correlation header. Adding new correlation ID: 254d595f-2bc9-4439-982f-ce7ee824ab8c
+11/06/2020 10:18:12 +07:00 Request correlation ID: 254d595f-2bc9-4439-982f-ce7ee824ab8c
+11/06/2020 10:18:12 +07:00 Get: 고객 확보 
+11/06/2020 10:18:43 +07:00 Get: 고객 확보 
+11/06/2020 10:20:40 +07:00 Application Starting.
+11/06/2020 10:20:43 +07:00 Request to "GET":"/swagger/index.html" processed in 103 ms
+11/06/2020 10:20:43 +07:00 Request has no correlation header. Adding new correlation ID: 8a912c76-59d0-4f3a-a22f-0318c44dfe17
+11/06/2020 10:20:43 +07:00 Request correlation ID: 8a912c76-59d0-4f3a-a22f-0318c44dfe17
+11/06/2020 10:20:43 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 11 ms
+11/06/2020 10:20:43 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 183 ms
+11/06/2020 10:20:44 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 14 ms
+11/06/2020 10:20:46 +07:00 Request has no correlation header. Adding new correlation ID: 583617da-d76a-42f7-aec9-809883887f54
+11/06/2020 10:20:46 +07:00 Request correlation ID: 583617da-d76a-42f7-aec9-809883887f54
+11/06/2020 10:20:46 +07:00 고객 확보 
+11/06/2020 10:20:54 +07:00 Get: 고객 확보 
+11/06/2020 10:23:17 +07:00 Application Starting.
+11/06/2020 10:23:20 +07:00 Request to "GET":"/swagger/index.html" processed in 98 ms
+11/06/2020 10:23:20 +07:00 Request has no correlation header. Adding new correlation ID: 068e4526-feea-42f0-aed6-7778c7605794
+11/06/2020 10:23:20 +07:00 Request correlation ID: 068e4526-feea-42f0-aed6-7778c7605794
+11/06/2020 10:23:20 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 7 ms
+11/06/2020 10:23:20 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 173 ms
+11/06/2020 10:23:57 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 6 ms
+11/06/2020 10:23:59 +07:00 Request has no correlation header. Adding new correlation ID: d2fa6e74-947e-4792-8396-76e90c41cbf3
+11/06/2020 10:23:59 +07:00 Request correlation ID: d2fa6e74-947e-4792-8396-76e90c41cbf3
+11/06/2020 10:24:00 +07:00 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Customer.API.Controllers.V1.CustomersController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Customer.API.Middleware.RequestCorrelationMiddleware.Invoke(HttpContext context, ILogger`1 logger) in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Middleware\RequestCorrelationMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Customer.API.Startup.<>c__DisplayClass11_0.<<Configure>b__0>d.MoveNext() in C:\Users\gannha\Desktop\New folder\LocalizationAndGlobalization\Customer.API\Startup.cs:line 79
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+11/06/2020 10:24:37 +07:00 Application Starting.
+11/06/2020 10:24:40 +07:00 Request to "GET":"/swagger/index.html" processed in 116 ms
+11/06/2020 10:24:40 +07:00 Request has no correlation header. Adding new correlation ID: ba6a4782-950f-4a05-bbd8-2c490eb75546
+11/06/2020 10:24:40 +07:00 Request correlation ID: ba6a4782-950f-4a05-bbd8-2c490eb75546
+11/06/2020 10:24:40 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 10 ms
+11/06/2020 10:24:40 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 192 ms
+11/06/2020 10:28:00 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 7 ms
+11/06/2020 10:28:01 +07:00 Request has no correlation header. Adding new correlation ID: 730b46ec-f5a1-4769-9166-b54a3bea1d95
+11/06/2020 10:28:01 +07:00 Request correlation ID: 730b46ec-f5a1-4769-9166-b54a3bea1d95
+11/06/2020 10:28:02 +07:00 고객 확보 
+11/06/2020 10:28:10 +07:00 Get: 고객 확보 
+11/06/2020 10:28:42 +07:00 Request to "GET":"/customers/v1/customers" processed in 40039 ms
+11/06/2020 10:36:00 +07:00 Application Starting.
+11/06/2020 10:36:13 +07:00 Request to "GET":"/swagger/index.html" processed in 95 ms
+11/06/2020 10:36:13 +07:00 Request has no correlation header. Adding new correlation ID: 7cb5f217-65d3-4245-ad1e-a925a404e085
+11/06/2020 10:36:13 +07:00 Request correlation ID: 7cb5f217-65d3-4245-ad1e-a925a404e085
+11/06/2020 10:36:13 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 16 ms
+11/06/2020 10:36:13 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 175 ms
+11/06/2020 10:37:45 +07:00 Application Starting.
+11/06/2020 10:37:48 +07:00 Request to "GET":"/swagger/index.html" processed in 98 ms
+11/06/2020 10:37:48 +07:00 Request has no correlation header. Adding new correlation ID: cc7996f9-655c-4bf3-a17b-5a64c45f058d
+11/06/2020 10:37:48 +07:00 Request correlation ID: cc7996f9-655c-4bf3-a17b-5a64c45f058d
+11/06/2020 10:37:48 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 8 ms
+11/06/2020 10:37:49 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 183 ms
+11/06/2020 10:37:50 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 11 ms
+11/06/2020 10:37:51 +07:00 Request has no correlation header. Adding new correlation ID: 03a542f3-a21c-410c-b3ba-14c61a4eb68a
+11/06/2020 10:37:51 +07:00 Request correlation ID: 03a542f3-a21c-410c-b3ba-14c61a4eb68a
+11/06/2020 10:37:51 +07:00 고객 확보 
+11/06/2020 10:37:54 +07:00 Get: Getting Customers
+11/06/2020 10:37:58 +07:00 Request to "GET":"/customers/v1/customers" processed in 6729 ms
+11/06/2020 10:41:23 +07:00 Application Starting.
+11/06/2020 10:41:26 +07:00 Request to "GET":"/swagger/index.html" processed in 98 ms
+11/06/2020 10:41:26 +07:00 Request has no correlation header. Adding new correlation ID: d117c8a8-7778-40d8-aa75-f42fd39f3a4c
+11/06/2020 10:41:26 +07:00 Request correlation ID: d117c8a8-7778-40d8-aa75-f42fd39f3a4c
+11/06/2020 10:41:26 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 9 ms
+11/06/2020 10:41:26 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 181 ms
+11/06/2020 10:41:27 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 13 ms
+11/06/2020 10:41:29 +07:00 Request has no correlation header. Adding new correlation ID: 3237464d-4d0c-4a03-8449-41310cacb063
+11/06/2020 10:41:29 +07:00 Request correlation ID: 3237464d-4d0c-4a03-8449-41310cacb063
+11/06/2020 10:41:29 +07:00 고객 확보 
+11/06/2020 10:41:33 +07:00 Get: Getting Customers

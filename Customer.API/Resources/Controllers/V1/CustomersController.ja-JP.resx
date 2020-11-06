@@ -139,7 +139,7 @@
     <value>顧客を取得する {0}</value>
   </data>
   <data name="LoggingGetCustomers" xml:space="preserve">
-    <value>顧客を獲得する {0}</value>
+    <value>顧客を獲得する</value>
   </data>
   <data name="LoggingUpdatedCustomer" xml:space="preserve">
     <value>顧客 {0} が正常に更新されました</value>

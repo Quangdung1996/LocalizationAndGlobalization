@@ -139,7 +139,7 @@
     <value>{0} 고객 확보</value>
   </data>
   <data name="LoggingGetCustomers" xml:space="preserve">
-    <value>고객 확보 {0}</value>
+    <value>고객 확보 </value>
   </data>
   <data name="LoggingUpdatedCustomer" xml:space="preserve">
     <value>{0} 고객을 업데이트했습니다.</value>

@@ -7,7 +7,9 @@ using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Resources;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Customer.API.Controllers.V1
@@ -140,8 +142,13 @@ namespace Customer.API.Controllers.V1
 
         private string BuildLogInfo(string methodName, string resourceStringName, params object[] replacements)
         {
-            var a = _localizer[resourceStringName, replacements];
             return $"{methodName}: {_localizer[resourceStringName, replacements]}";
+        }
+
+        private static string DecodeFromUtf8(string utf8_String)
+        {
+            byte[] bytes = Encoding.Default.GetBytes(utf8_String);
+            return Encoding.UTF8.GetString(bytes);
         }
     }
 }
