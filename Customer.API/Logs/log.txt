@@ -595,3 +595,17 @@ System.InvalidOperationException: Both ErrorMessageResourceType and ErrorMessage
 11/09/2020 15:16:37 +07:00 Request has no correlation header. Adding new correlation ID: 018cf326-a112-4d4a-998a-37b304ccb781
 11/09/2020 15:16:37 +07:00 Request correlation ID: 018cf326-a112-4d4a-998a-37b304ccb781
 11/09/2020 15:16:38 +07:00 Request to "POST":"/customers/v1/customers" processed in 239 ms
+11/09/2020 15:44:21 +07:00 Application Starting.
+11/09/2020 15:44:24 +07:00 Request to "GET":"/swagger/index.html" processed in 95 ms
+11/09/2020 15:44:24 +07:00 Request has no correlation header. Adding new correlation ID: 0440b1c8-c4ee-42f6-87fd-cc8eea2386b1
+11/09/2020 15:44:24 +07:00 Request correlation ID: 0440b1c8-c4ee-42f6-87fd-cc8eea2386b1
+11/09/2020 15:44:24 +07:00 Request to "GET":"/swagger/theme-material.css" processed in 8 ms
+11/09/2020 15:44:24 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 213 ms
+11/09/2020 15:44:26 +07:00 Request to "GET":"/swagger/Customer.API%20v1.0/swagger.json" processed in 10 ms
+11/09/2020 15:44:28 +07:00 Request has no correlation header. Adding new correlation ID: 26c9dae2-ae0a-45dc-b911-a52440063097
+11/09/2020 15:44:28 +07:00 Request correlation ID: 26c9dae2-ae0a-45dc-b911-a52440063097
+11/09/2020 15:44:28 +07:00 Request to "POST":"/customers/v1/customers" processed in 243 ms
+11/09/2020 15:44:44 +07:00 Request has no correlation header. Adding new correlation ID: 8b01ad4c-55f6-4035-859d-eb769c6e50aa
+11/09/2020 15:44:44 +07:00 Request correlation ID: 8b01ad4c-55f6-4035-859d-eb769c6e50aa
+11/09/2020 15:44:45 +07:00 Get: LoggingGetCustomers
+11/09/2020 15:44:45 +07:00 Request to "GET":"/customers/v1/customers" processed in 413 ms

@@ -43,7 +43,17 @@ namespace Customer.API
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             services.AddLocalization(options => options.ResourcesPath = "Resources");
-            services.AddControllers();
+            services.AddControllers().AddDataAnnotationsLocalization(o =>
+            {
+                o.DataAnnotationLocalizerProvider = (type, factory) =>
+                {
+                    var localizationResource = type.GetTypeAttribute<LocalizationResourceAttribute>();
+                    return localizationResource == null
+                        ? factory.Create(type)
+                        : factory.Create(localizationResource.Name, localizationResource.Location);
+                };
+            });
+
             services.AddOptions();
             services.AddDbContext<EFCustomersDataProvider>(options => options.UseInMemoryDatabase("CustomerDataDb"));
             services.AddSingleton(new ResourceManager("Customer.API.Resources.Controllers.CustomersController", typeof(Startup).GetTypeInfo().Assembly));
