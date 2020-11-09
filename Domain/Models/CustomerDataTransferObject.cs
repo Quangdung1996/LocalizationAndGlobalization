@@ -1,8 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Domain.LocalizationExtensions;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Domain.Models
 {
-    public class CustomerDataTransferObject
+    [LocalizationResource(Name = "CustomerDataTransferObjectShared", Location = "Domain")]
+    public class CustomerDataTransferObject : IValidatableObject
     {
         [Required(ErrorMessage = "FirstNameRequiredError")]
         public string FirstName { get; set; }
@@ -67,6 +70,12 @@ namespace Domain.Models
             result = result * 31 + (ZipCode == 0 ? 0 : ZipCode.GetHashCode());
 
             return result;
+        }
+
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        {
+            return default;
+            //return Validate(validationContext);
         }
     }
 }

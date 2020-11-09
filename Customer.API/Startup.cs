@@ -3,6 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using Customer.API.Data;
 using Customer.API.DI;
 using Customer.API.Middleware;
+using Domain.LocalizationExtensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -48,7 +49,7 @@ namespace Customer.API
             services.AddSingleton(new ResourceManager("Customer.API.Resources.Controllers.CustomersController", typeof(Startup).GetTypeInfo().Assembly));
 
             services.AddSwaggerForApiDocs("'Customer.API v'VVVV", options => { });
-
+            services.AddResources();
             return CreateAutofacServiceProvider(services);
         }
 
